@@ -1,3 +1,61 @@
-[![Gitpod ready-to-code](https://img.shields.io/badge/Gitpod-ready--to--code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/vuillaut/testgitpod)
+# Data Science course 2021
 
-# testgitpod
+
+Frederic Gillardo    
+Thomas Vuillaume   
+
+contact us at firstname.name[at]lapp.in2p3.fr
+
+
+## Courses content:
+
+### Course 0: Python and environment setup
+These are reminders of prerequisite for this course
+
+- env. setup: [conda](https://www.anaconda.com/products/individual), Python and Jupyter
+- Python:
+https://jckantor.github.io/CBE30338/01.02-Python-Basics.html
+
+- git:
+https://education.github.com/git-cheat-sheet-education.pdf
+
+
+### Course 1
+
+- [Introduction to data science](DataScience_intro.pptx)
+- [Introduction to Numpy](numpy)
+
+
+### Course 2
+
+- [Exercices with Numpy](numpy/Numpy_GalaxyMultiWaveLength.ipynb)
+- [Introduction to pandas](pandas/README.md)
+- Exercices with pandas
+
+
+### Course 3
+- [Exercices with pandas](pandas/Pandas_M1.ipynb)
+- Introduction to matplotlib and visualisation
+- Exercices with matplotlib
+- Visualisation with pandas
+
+
+### Course 4
+- [Introduction to machine learning](machine_learning/README.md)
+- Exercices with scikit-learn
+
+### Course 5
+- Machine learning #2
+- Exercices
+- [Practical work on a real case](Homework/README.md)
+
+### Course 6
+- Practical work on a real case
+- Getting scores for the real case
+- Introduction to git pull requests
+- Introduction to kaggle
+- Wrap-up, going further in data science
+
+
+### Homework
+- TP on exoplanets

@@ -56,6 +56,9 @@ https://education.github.com/git-cheat-sheet-education.pdf
 - Introduction to kaggle
 - Wrap-up, going further in data science
 
+# Course 7
+- Big tools for Big data
+
 
 ### Homework
 - TP on exoplanets

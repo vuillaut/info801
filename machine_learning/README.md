@@ -6,6 +6,6 @@ This will be a short introduction to machine learning for data scientist to unde
 
 After a short introduction, we will work together on the NY taxi fare Kaggle competition:
 
-https://www.kaggle.com/c/new-york-city-taxi-fare-prediction
+[START HERE](NY_taxi_fare_prediction_TP.md)
 
 

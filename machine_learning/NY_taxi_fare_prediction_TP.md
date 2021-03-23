@@ -12,7 +12,8 @@ In the second part, we will make a first step into machine learning.
 
 1. Download the data from https://www.kaggle.com/c/new-york-city-taxi-fare-prediction/data (Download All button)
 Unzip the data in your working directory.
-
+Or download for here:
+https://filesender.renater.fr/?s=download&token=8964e7fb-d260-445b-90e2-29d31a8be6e3
 
 2. Start a new notebook
 
@@ -35,7 +36,7 @@ Is this consistent with what you can see in the data?
 Does that seem consistent with a taxi ride within the city?    
 Select data that have longitude between (-74.3, -73.7) and latitudes between (40.5, 40.9). We use only this data for the rest of the project.
 
-8. Is there some inconsistant or missing data?   
+8. Is there some inconsistent or missing data?   
 Explain what and why.
 Remove it.
 
@@ -83,5 +84,26 @@ What is the prediction of the linear regressor for a 10km ride?
 def display_ny_map():
     nyc_map_zoom = plt.imread('NY_taxi_fare/nyc_-74.3_-73.7_40.5_40.9.png')
     BB = (-74.3, -73.7, 40.5, 40.9)
-    plt.imshow(nyc_map_zoom, zorder=0, extent=BB)
+    ax = plt.imshow(nyc_map_zoom, zorder=0, extent=BB)
+    return ax.axes
 ```
+
+```
+def haversine(lon1, lat1, lon2, lat2):
+    """
+    Calculate the great circle distance between two points 
+    on the earth (specified in decimal degrees)
+    """
+    # convert decimal degrees to radians 
+    lon1, lat1, lon2, lat2 = map(np.deg2rad, [lon1, lat1, lon2, lat2])
+
+    # haversine formula 
+    dlon = lon2 - lon1 
+    dlat = lat2 - lat1 
+    a = np.sin(dlat/2)**2 + np.cos(lat1) * np.cos(lat2) * np.sin(dlon/2)**2
+    c = 2 * np.arcsin(np.sqrt(a)) 
+    r = 6371 # Radius of earth in kilometers. Use 3956 for miles
+    return c * r
+ ```
+
+1. Make a linear regression the taxi fare from that feature

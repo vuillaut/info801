@@ -36,7 +36,7 @@ Is this consistent with what you can see in the data?
 Does that seem consistent with a taxi ride within the city?    
 Select data that have longitude between (-74.3, -73.7) and latitudes between (40.5, 40.9). We use only this data for the rest of the project.
 
-8. Is there some inconsistant or missing data?   
+8. Is there some inconsistent or missing data?   
 Explain what and why.
 Remove it.
 

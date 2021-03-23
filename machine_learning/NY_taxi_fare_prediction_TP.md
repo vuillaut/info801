@@ -84,5 +84,6 @@ What is the prediction of the linear regressor for a 10km ride?
 def display_ny_map():
     nyc_map_zoom = plt.imread('NY_taxi_fare/nyc_-74.3_-73.7_40.5_40.9.png')
     BB = (-74.3, -73.7, 40.5, 40.9)
-    plt.imshow(nyc_map_zoom, zorder=0, extent=BB)
+    ax = plt.imshow(nyc_map_zoom, zorder=0, extent=BB)
+    return ax.axes
 ```

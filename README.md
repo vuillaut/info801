@@ -6,6 +6,12 @@ Thomas Vuillaume
 
 contact us at firstname.name[at]lapp.in2p3.fr
 
+## Runing online
+
+- [Google colab](https://colab.research.google.com/github/vuillaut/info801/)
+- [mybinder](https://mybinder.org/v2/gh/vuillaut/info801/HEAD)
+- [deepnote](https://deepnote.com/dashboard/INFO801/projects)
+
 
 ## Courses content:
 

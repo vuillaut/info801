@@ -1,4 +1,4 @@
-# Data Science course 2021
+# INFO801: Data Science course
 
 
 Frederic Gillardo    
@@ -12,12 +12,15 @@ contact us at firstname.name[at]lapp.in2p3.fr
 ### Course 0: Python and environment setup
 These are reminders of prerequisite for this course
 
-- env. setup: [conda](https://www.anaconda.com/products/individual), Python and Jupyter
-- Python:
-https://jckantor.github.io/CBE30338/01.02-Python-Basics.html
+Python basics:
+- https://jckantor.github.io/CBE30338/01.02-Python-Basics.html
+- https://www.kaggle.com/learn/python
 
-- git:
-https://education.github.com/git-cheat-sheet-education.pdf
+Env. setup: 
+- [conda](https://www.anaconda.com/products/individual)
+
+Git:
+- https://education.github.com/git-cheat-sheet-education.pdf
 
 
 ### Course 1

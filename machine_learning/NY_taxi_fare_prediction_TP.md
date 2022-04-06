@@ -13,7 +13,7 @@ In the second part, we will make a first step into machine learning.
 1. Download the data from https://www.kaggle.com/c/new-york-city-taxi-fare-prediction/data (Download All button)
 Unzip the data in your working directory.
 Or download for here:
-https://filesender.renater.fr/?s=download&token=8964e7fb-d260-445b-90e2-29d31a8be6e3
+https://filesender.renater.fr/?s=download&token=93a4b6c3-3b6d-43a1-a1aa-526b476ea929
 
 2. Start a new notebook
 
